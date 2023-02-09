@@ -1,34 +1,72 @@
 {
-    "name": "glitch-hello-react",
-    "version": "0.0.5",
-    "description": "A simple React single page app, built with Vite and React.",
-    "scripts": {
-      "start": "vite",
-      "build": "vite build",
-      "serve": "vite preview"
-    },
-    "dependencies": {
-      "react": "^18.0.0",
-      "react-dom": "^18.0.0",
-      "react-spring": "^9.4.5",
-      "wouter": "^2.7.4",
-      "react-helmet-async": "^1.3.0",
-      "@vitejs/plugin-react": "^1.3.2"
-    },
-    "devDependencies": {
-      "vite": "^2.4.4"
-    },
-    "browserslist": [
+  "name": "my-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/color-rgba": "^2.1.0",
+    "@types/d3-color": "^2.0.1",
+    "antd": "^4.12.3",
+    "axios": "^0.21.1",
+    "color-gradient-converter": "^0.0.1-beta.9",
+    "color.js": "^1.2.0",
+    "d3-color": "^2.0.0",
+    "http-proxy-middleware": "^1.0.6",
+    "react": "^17.0.1",
+    "react-colorful": "^5.1.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.2.2",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.31",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-router-dom": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "customize-cra": "^1.0.0",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "less": "^4.1.1",
+    "less-loader": "^5.0.0",
+    "prettier": "^2.2.1",
+    "react-app-rewired": "^2.1.8"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
       ">0.2%",
-      "not dead"
+      "not dead",
+      "not op_mini all"
     ],
-    "engines": {
-      "node": "12.x"
-    },
-    "repository": {
-      "url": "https://glitch.com/edit/#!/glitch-hello-react"
-    },
-    "glitch": {
-      "projectType": "generated_static"
-    }
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
+}
