@@ -1,0 +1,146 @@
+:root {
+    --color-text-main: #000000;
+    --color-primary: #AFECE0;
+    --wrapper-height: 85vh;
+    --image-max-width: 320px;
+    --font-family: "HK Grotesk";
+    --font-family-header: "HK Grotesk";
+  }
+  
+  @font-face {
+    font-family: HK Grotesk;
+    src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+      format("opentype");
+  }
+  @font-face {
+    font-family: HK Grotesk;
+    font-weight: bold;
+    src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+      format("opentype");
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto 0;
+    padding: 1rem 0 0.75rem 0;
+    width: 100%;
+    flex-wrap: wrap;
+    border-top: 4px solid #fff;
+  }
+  
+  .footer a:not(.btn--remix):link,
+  a:not(.btn--remix):visited {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    border-style: none;
+  }
+  .footer a:hover {
+    background: var(--color-primary);
+  }
+  
+  .footer .links {
+    padding: 0.5rem 1rem 1.5rem;
+    white-space: nowrap;
+  }
+  
+  .divider {
+    padding: 0 1rem;
+  }
+  
+  .wrapper {
+    min-height: var(--wrapper-height);
+    display: grid;
+    place-items: center;
+    margin: 0 1rem;
+    min-height: 86vh;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page p {
+    line-height: 1.5;
+  }
+  
+  .page a {
+    color: #000;
+  }
+  
+  .page a:hover {
+    text-decoration: none;
+  }
+  
+  .btn--click-me {
+    user-select: none;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn--click-me:hover {
+    text-decoration: underline;
+  }
+  
+  .avatar {
+    border-radius: 50% !important;
+    width:300px
+  }
+  
+  h1, p, h2, h3 {
+    color: white !important;
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4 {
+    filter: drop-shadow(6px 6px 0 rgba(0, 0, 0, 0.4));
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  .btn,
+  input[type="submit"] {
+    border: 0 !important;
+    border-radius: 5px !important;
+    box-sizing: border-box !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    height: 38px !important;
+    line-height: 38px !important;
+    margin: 0.5em !important;
+    padding: 0 30px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    position: static !important;
+  }
+  
+  .pa {
+    padding: 20px;
+  }
+  
+  .text-left {
+    padding: 25px !important;
+    text-align: left !important;
+  }
+  
+  h1 {
+    font-size: 100px !important;
+  }
+  
+  p {
+    font-size: 20px !important;
+  }
+  
+  .jumbotron {
+    border-radius: 250rem !important;
+  }
